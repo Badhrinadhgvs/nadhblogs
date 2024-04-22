@@ -1,0 +1,19 @@
+{% extends 'static_blog_app/base.html' %}
+{% block content %}
+
+<style>
+    .div{
+        border: 2px solid transparent;
+        display: grid;
+        place-items: center;
+        margin-top: 10px;
+    }
+</style>
+<div class="div">
+    <h1>{{title}}</h1>
+</div>
+<div class="content_box">
+    {{descri}}
+</div>
+
+{% endblock %}
